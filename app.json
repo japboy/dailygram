@@ -1,0 +1,855 @@
+{
+  "questions": [
+    {
+      "id": 10100,
+      "next_id": 10200,
+      "subject": "現在の気分を教えて下さい。",
+      "answers": [
+        {
+          "id": 10101,
+          "parent_id": 10100,
+          "type": "radio",
+          "name": "ans01",
+          "value": 0,
+          "text": "気分が沈んでいない"
+        },
+        {
+          "id": 10102,
+          "parent_id": 10100,
+          "type": "radio",
+          "name": "ans01",
+          "value": 1,
+          "text": "気分が沈んでる"
+        },
+        {
+          "id": 10103,
+          "parent_id": 10100,
+          "type": "radio",
+          "name": "ans01",
+          "value": 2,
+          "text": "いつも気分が沈んで悲しみから抜け出せない"
+        },
+        {
+          "id": 10104,
+          "parent_id": 10100,
+          "type": "radio",
+          "name": "ans01",
+          "value": 3,
+          "text": "ひどくつらくて不幸なので、もう耐えられない"
+        }
+      ]
+    },
+    {
+      "id": 10200,
+      "next_id": 10300,
+      "subject": "将来についての考えを教えて下さい。",
+      "answers": [
+        {
+          "id": 10201,
+          "parent_id": 10200,
+          "type": "radio",
+          "name": "ans02",
+          "value": 0,
+          "text": "将来について悲観してはいない"
+        },
+        {
+          "id": 10202,
+          "parent_id": 10200,
+          "type": "radio",
+          "name": "ans02",
+          "value": 1,
+          "text": "将来について悲観している"
+        },
+        {
+          "id": 10203,
+          "parent_id": 10200,
+          "type": "radio",
+          "name": "ans02",
+          "value": 2,
+          "text": "将来に対する希望がない"
+        },
+        {
+          "id": 10204,
+          "parent_id": 10200,
+          "type": "radio",
+          "name": "ans02",
+          "value": 3,
+          "text": "将来に何の希望もなく、良くなる可能性もない"
+        }
+      ]
+    },
+    {
+      "id": 10300,
+      "next_id": 10400,
+      "subject": "過去の失敗についての考えを教えて下さい。",
+      "answers": [
+        {
+          "id": 10301,
+          "parent_id": 10300,
+          "type": "radio",
+          "name": "ans03",
+          "value": 0,
+          "text": "自分のしてきたことに対して、失敗だったとは感じない"
+        },
+        {
+          "id": 10302,
+          "parent_id": 10300,
+          "type": "radio",
+          "name": "ans03",
+          "value": 1,
+          "text": "普通の人より、よく失敗するように思う"
+        },
+        {
+          "id": 10303,
+          "parent_id": 10300,
+          "type": "radio",
+          "name": "ans03",
+          "value": 2,
+          "text": "過去のことをふりかえれば、失敗のことばかりしてきたように思う"
+        },
+        {
+          "id": 10304,
+          "parent_id": 10300,
+          "type": "radio",
+          "name": "ans03",
+          "value": 3,
+          "text": "人間として落伍者だと思う"
+        }
+      ]
+    },
+    {
+      "id": 10400,
+      "next_id": 10500,
+      "subject": "現在の生活についての考えを教えて下さい。",
+      "answers": [
+        {
+          "id": 10401,
+          "parent_id": 10400,
+          "type": "radio",
+          "name": "ans04",
+          "value": 0,
+          "text": "今の生活に満足している"
+        },
+        {
+          "id": 10402,
+          "parent_id": 10400,
+          "type": "radio",
+          "name": "ans04",
+          "value": 1,
+          "text": "以前のようにものごとが楽しめなくなった"
+        },
+        {
+          "id": 10403,
+          "parent_id": 10400,
+          "type": "radio",
+          "name": "ans04",
+          "value": 2,
+          "text": "何事にも満足感が得られない"
+        },
+        {
+          "id": 10404,
+          "parent_id": 10400,
+          "type": "radio",
+          "name": "ans04",
+          "value": 3,
+          "text": "すべてのことが不満である"
+        }
+      ]
+    },
+    {
+      "id": 10500,
+      "next_id": 10600,
+      "subject": "現在の罪悪感について教えて下さい。",
+      "answers": [
+        {
+          "id": 10501,
+          "parent_id": 10500,
+          "type": "radio",
+          "name": "ans05",
+          "value": 0,
+          "text": "罪の意識など感じない"
+        },
+        {
+          "id": 10502,
+          "parent_id": 10500,
+          "type": "radio",
+          "name": "ans05",
+          "value": 1,
+          "text": "ときどき罪の意識を感じる"
+        },
+        {
+          "id": 10503,
+          "parent_id": 10500,
+          "type": "radio",
+          "name": "ans05",
+          "value": 2,
+          "text": "ほとんどいつも罪の意識を感じる"
+        },
+        {
+          "id": 10504,
+          "parent_id": 10500,
+          "type": "radio",
+          "name": "ans05",
+          "value": 3,
+          "text": "いつも罪の意識を感じる"
+        }
+      ]
+    },
+    {
+      "id": 10600,
+      "next_id": 10700,
+      "subject": "罪の意識について教えて下さい。",
+      "answers": [
+        {
+          "id": 10601,
+          "parent_id": 10600,
+          "type": "radio",
+          "name": "ans06",
+          "value": 0,
+          "text": "バチがあたりそうだとは思わない"
+        },
+        {
+          "id": 10602,
+          "parent_id": 10600,
+          "type": "radio",
+          "name": "ans06",
+          "value": 1,
+          "text": "自分に悪いことがおこりそうな気がする"
+        },
+        {
+          "id": 10603,
+          "parent_id": 10600,
+          "type": "radio",
+          "name": "ans06",
+          "value": 2,
+          "text": "何かバチがあたりそうだと思う"
+        },
+        {
+          "id": 10604,
+          "parent_id": 10600,
+          "type": "radio",
+          "name": "ans06",
+          "value": 3,
+          "text": "自分は罰せられるに値する人間だと思う"
+        }
+      ]
+    },
+    {
+      "id": 10700,
+      "next_id": 10800,
+      "subject": "現在の失望感について教えて下さい。",
+      "answers": [
+        {
+          "id": 10701,
+          "parent_id": 10700,
+          "type": "radio",
+          "name": "ans07",
+          "value": 0,
+          "text": "自分自身に失望してはいない"
+        },
+        {
+          "id": 10702,
+          "parent_id": 10700,
+          "type": "radio",
+          "name": "ans07",
+          "value": 1,
+          "text": "自分自身に失望している"
+        },
+        {
+          "id": 10703,
+          "parent_id": 10700,
+          "type": "radio",
+          "name": "ans07",
+          "value": 2,
+          "text": "自分自身にが嫌いだ"
+        },
+        {
+          "id": 10704,
+          "parent_id": 10700,
+          "type": "radio",
+          "name": "ans07",
+          "value": 3,
+          "text": "自分自身を憎んでいる"
+        }
+      ]
+    },
+    {
+      "id": 10800,
+      "next_id": 10900,
+      "subject": "自分自信をどれくらい叱責しているか教えて下さい。",
+      "answers": [
+        {
+          "id": 10801,
+          "parent_id": 10800,
+          "type": "radio",
+          "name": "ans08",
+          "value": 0,
+          "text": "自分の弱点やあやまちはある程度許せる"
+        },
+        {
+          "id": 10802,
+          "parent_id": 10800,
+          "type": "radio",
+          "name": "ans08",
+          "value": 1,
+          "text": "自分の欠点やあやまちを許せない"
+        },
+        {
+          "id": 10803,
+          "parent_id": 10800,
+          "type": "radio",
+          "name": "ans08",
+          "value": 2,
+          "text": "うまくいかないときはいつも自分を責める"
+        },
+        {
+          "id": 10804,
+          "parent_id": 10800,
+          "type": "radio",
+          "name": "ans08",
+          "value": 3,
+          "text": "あやまちだらけの人間だと思う"
+        }
+      ]
+    },
+    {
+      "id": 10900,
+      "next_id": 11000,
+      "subject": "自殺願望について教えて下さい。",
+      "answers": [
+        {
+          "id": 10901,
+          "parent_id": 10900,
+          "type": "radio",
+          "name": "ans09",
+          "value": 0,
+          "text": "自殺しようと全く思わない"
+        },
+        {
+          "id": 10902,
+          "parent_id": 10900,
+          "type": "radio",
+          "name": "ans09",
+          "value": 1,
+          "text": "死にたいと思うことはあるが、自殺を実行しようとは思わない"
+        },
+        {
+          "id": 10903,
+          "parent_id": 10900,
+          "type": "radio",
+          "name": "ans09",
+          "value": 2,
+          "text": "自殺したいと思う"
+        },
+        {
+          "id": 10904,
+          "parent_id": 10900,
+          "type": "radio",
+          "name": "ans09",
+          "value": 3,
+          "text": "チャンスがあれば自殺するつもりである"
+        }
+      ]
+    },
+    {
+      "id": 11000,
+      "next_id": 11100,
+      "subject": "現在どれくらい泣きますか。",
+      "answers": [
+        {
+          "id": 11001,
+          "parent_id": 11000,
+          "type": "radio",
+          "name": "ans10",
+          "value": 0,
+          "text": "いつも以上に泣くことはない"
+        },
+        {
+          "id": 11002,
+          "parent_id": 11000,
+          "type": "radio",
+          "name": "ans10",
+          "value": 1,
+          "text": "以前よりも泣く"
+        },
+        {
+          "id": 11003,
+          "parent_id": 11000,
+          "type": "radio",
+          "name": "ans10",
+          "value": 2,
+          "text": "いつも泣いてばかりいる"
+        },
+        {
+          "id": 11004,
+          "parent_id": 11000,
+          "type": "radio",
+          "name": "ans10",
+          "value": 3,
+          "text": "以前は泣くことができたが、この頃では泣けないほどつらい"
+        }
+      ]
+    },
+    {
+      "id": 11100,
+      "next_id": 11200,
+      "subject": "現在どれくらいイライラしますか。",
+      "answers": [
+        {
+          "id": 11101,
+          "parent_id": 11100,
+          "type": "radio",
+          "name": "ans11",
+          "value": 0,
+          "text": "イライラしていない"
+        },
+        {
+          "id": 11102,
+          "parent_id": 11100,
+          "type": "radio",
+          "name": "ans11",
+          "value": 1,
+          "text": "いつもより少しイライラしている"
+        },
+        {
+          "id": 11103,
+          "parent_id": 11100,
+          "type": "radio",
+          "name": "ans11",
+          "value": 2,
+          "text": "しょっちゅうイライラしている"
+        },
+        {
+          "id": 11104,
+          "parent_id": 11100,
+          "type": "radio",
+          "name": "ans11",
+          "value": 3,
+          "text": "以前だったらイラだっていることにさえ、この頃はいらだつこともできない"
+        }
+      ]
+    },
+    {
+      "id": 11200,
+      "next_id": 11300,
+      "subject": "人への関心はどれくらいありますか。",
+      "answers": [
+        {
+          "id": 11201,
+          "parent_id": 11200,
+          "type": "radio",
+          "name": "ans12",
+          "value": 0,
+          "text": "他の人に対する関心を失っていない"
+        },
+        {
+          "id": 11202,
+          "parent_id": 11200,
+          "type": "radio",
+          "name": "ans12",
+          "value": 1,
+          "text": "以前より他の人に対する関心がなくなった"
+        },
+        {
+          "id": 11203,
+          "parent_id": 11200,
+          "type": "radio",
+          "name": "ans12",
+          "value": 2,
+          "text": "他の人に対する関心をほとんど失った"
+        },
+        {
+          "id": 11204,
+          "parent_id": 11200,
+          "type": "radio",
+          "name": "ans12",
+          "value": 3,
+          "text": "他の人に対する関心を全く失った"
+        }
+      ]
+    },
+    {
+      "id": 11300,
+      "next_id": 11400,
+      "subject": "決断力について教えて下さい。",
+      "answers": [
+        {
+          "id": 11301,
+          "parent_id": 11300,
+          "type": "radio",
+          "name": "ans13",
+          "value": 0,
+          "text": "いつもと同じように決断することができる"
+        },
+        {
+          "id": 11302,
+          "parent_id": 11300,
+          "type": "radio",
+          "name": "ans13",
+          "value": 1,
+          "text": "決断を下すのを避けようとしている"
+        },
+        {
+          "id": 11303,
+          "parent_id": 11300,
+          "type": "radio",
+          "name": "ans13",
+          "value": 2,
+          "text": "自分一人では決断ができない"
+        },
+        {
+          "id": 11304,
+          "parent_id": 11300,
+          "type": "radio",
+          "name": "ans13",
+          "value": 3,
+          "text": "もはや全く決断することができない"
+        }
+      ]
+    },
+    {
+      "id": 11400,
+      "next_id": 11500,
+      "subject": "外見について教えて下さい。",
+      "answers": [
+        {
+          "id": 11401,
+          "parent_id": 11400,
+          "type": "radio",
+          "name": "ans14",
+          "value": 0,
+          "text": "いつもの自分より見かけが変わったとは思わない"
+        },
+        {
+          "id": 11402,
+          "parent_id": 11400,
+          "type": "radio",
+          "name": "ans14",
+          "value": 1,
+          "text": "自分が老けたように見えたり、魅力的でないことが心配になる"
+        },
+        {
+          "id": 11403,
+          "parent_id": 11400,
+          "type": "radio",
+          "name": "ans14",
+          "value": 2,
+          "text": "もう自分には魅力がなくなったように感じる"
+        },
+        {
+          "id": 11404,
+          "parent_id": 11400,
+          "type": "radio",
+          "name": "ans14",
+          "value": 3,
+          "text": "自分は醜く、人に不快な感情を与えていると思う"
+        }
+      ]
+    },
+    {
+      "id": 11500,
+      "next_id": 11600,
+      "subject": "活力について教えて下さい。",
+      "answers": [
+        {
+          "id": 11501,
+          "parent_id": 11500,
+          "type": "radio",
+          "name": "ans15",
+          "value": 0,
+          "text": "いつもどおりに働ける"
+        },
+        {
+          "id": 11502,
+          "parent_id": 11500,
+          "type": "radio",
+          "name": "ans15",
+          "value": 1,
+          "text": "何かやり始めるのにいつもより努力が必要である"
+        },
+        {
+          "id": 11503,
+          "parent_id": 11500,
+          "type": "radio",
+          "name": "ans15",
+          "value": 2,
+          "text": "何をやるのにも大変な努力がいる"
+        },
+        {
+          "id": 11504,
+          "parent_id": 11500,
+          "type": "radio",
+          "name": "ans15",
+          "value": 3,
+          "text": "何をすることもできない"
+        }
+      ]
+    },
+    {
+      "id": 11600,
+      "next_id": 11700,
+      "subject": "睡眠について教えて下さい。",
+      "answers": [
+        {
+          "id": 11601,
+          "parent_id": 11600,
+          "type": "radio",
+          "name": "ans16",
+          "value": 0,
+          "text": "いつもどおりよく眠れる"
+        },
+        {
+          "id": 11602,
+          "parent_id": 11600,
+          "type": "radio",
+          "name": "ans16",
+          "value": 1,
+          "text": "いつもよりも眠れない"
+        },
+        {
+          "id": 11603,
+          "parent_id": 11600,
+          "type": "radio",
+          "name": "ans16",
+          "value": 2,
+          "text": "いつもより 1 ～ 2 時間早く目が覚め、あと寝つかない"
+        },
+        {
+          "id": 11604,
+          "parent_id": 11600,
+          "type": "radio",
+          "name": "ans16",
+          "value": 3,
+          "text": "毎朝早くから目が覚め、５時間以上眠れない"
+        }
+      ]
+    },
+    {
+      "id": 11700,
+      "next_id": 11800,
+      "subject": "疲労について教えて下さい。",
+      "answers": [
+        {
+          "id": 11701,
+          "parent_id": 11700,
+          "type": "radio",
+          "name": "ans17",
+          "value": 0,
+          "text": "疲れることはない"
+        },
+        {
+          "id": 11702,
+          "parent_id": 11700,
+          "type": "radio",
+          "name": "ans17",
+          "value": 1,
+          "text": "いつもより疲れやすい"
+        },
+        {
+          "id": 11703,
+          "parent_id": 11700,
+          "type": "radio",
+          "name": "ans17",
+          "value": 2,
+          "text": "何かするとすぐ疲れる"
+        },
+        {
+          "id": 11704,
+          "parent_id": 11700,
+          "type": "radio",
+          "name": "ans17",
+          "value": 3,
+          "text": "疲れて何もできない"
+        }
+      ]
+    },
+    {
+      "id": 11800,
+      "next_id": 11900,
+      "subject": "食欲について教えて下さい。",
+      "answers": [
+        {
+          "id": 11801,
+          "parent_id": 11800,
+          "type": "radio",
+          "name": "ans18",
+          "value": 0,
+          "text": "いつもどおり食欲はある"
+        },
+        {
+          "id": 11802,
+          "parent_id": 11800,
+          "type": "radio",
+          "name": "ans18",
+          "value": 1,
+          "text": "いつもより食欲がない"
+        },
+        {
+          "id": 11803,
+          "parent_id": 11800,
+          "type": "radio",
+          "name": "ans18",
+          "value": 2,
+          "text": "食欲がぐっと落ちた"
+        },
+        {
+          "id": 11804,
+          "parent_id": 11800,
+          "type": "radio",
+          "name": "ans18",
+          "value": 3,
+          "text": "全く食欲がない"
+        }
+      ]
+    },
+    {
+      "id": 11900,
+      "next_id": 12000,
+      "subject": "体重について教えて下さい。",
+      "answers": [
+        {
+          "id": 11901,
+          "parent_id": 11900,
+          "type": "radio",
+          "name": "ans19",
+          "value": 0,
+          "text": "最近それほどやせたということはない"
+        },
+        {
+          "id": 11902,
+          "parent_id": 11900,
+          "type": "radio",
+          "name": "ans19",
+          "value": 1,
+          "text": "最近 2 kg 以上やせた"
+        },
+        {
+          "id": 11903,
+          "parent_id": 11900,
+          "type": "radio",
+          "name": "ans19",
+          "value": 2,
+          "text": "最近 5 kg 以上やせた"
+        },
+        {
+          "id": 11904,
+          "parent_id": 11900,
+          "type": "radio",
+          "name": "ans19",
+          "value": 3,
+          "text": "最近 7 kg 以上やせた"
+        }
+      ]
+    },
+    {
+      "id": 12000,
+      "next_id": 12100,
+      "subject": "健康について教えて下さい。",
+      "answers": [
+        {
+          "id": 12001,
+          "parent_id": 12000,
+          "type": "radio",
+          "name": "ans20",
+          "value": 0,
+          "text": "自分の健康のことをいつも以上に心配することはない"
+        },
+        {
+          "id": 12002,
+          "parent_id": 12000,
+          "type": "radio",
+          "name": "ans20",
+          "value": 1,
+          "text": "悩みとか、胃が悪いとか、便秘など自分の身体について心配している"
+        },
+        {
+          "id": 12003,
+          "parent_id": 12000,
+          "type": "radio",
+          "name": "ans20",
+          "value": 2,
+          "text": "自分の身体の具合のことばかり心配し、他のことがあまり考えられない"
+        },
+        {
+          "id": 12004,
+          "parent_id": 12000,
+          "type": "radio",
+          "name": "ans20",
+          "value": 3,
+          "text": "自分の身体の具合のことばかり心配し、他のことを全く考えられない"
+        }
+      ]
+    },
+    {
+      "id": 12100,
+      "next_id": null,
+      "subject": "性欲について教えて下さい。",
+      "answers": [
+        {
+          "id": 12101,
+          "parent_id": 12100,
+          "type": "radio",
+          "name": "ans21",
+          "value": 0,
+          "text": "性欲はいつもとかわりない"
+        },
+        {
+          "id": 12102,
+          "parent_id": 12100,
+          "type": "radio",
+          "name": "ans21",
+          "value": 1,
+          "text": "以前と比べて性欲が減退した"
+        },
+        {
+          "id": 12103,
+          "parent_id": 12100,
+          "type": "radio",
+          "name": "ans21",
+          "value": 2,
+          "text": "性欲が以前よりずっと減退した"
+        },
+        {
+          "id": 12104,
+          "parent_id": 12100,
+          "type": "radio",
+          "name": "ans21",
+          "value": 3,
+          "text": "性欲が全くない"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": 20001,
+      "relations": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ],
+      "text": "うつ状態はありません。"
+    },
+    {
+      "id": 20002,
+      "relations": [ 11, 12, 13, 14, 15, 16 ],
+      "text": "軽度のうつ状態です。"
+    },
+    {
+      "id": 20003,
+      "relations": [ 17, 18, 19, 20 ],
+      "text": "軽度～中程度のうつ状態です。専門家の治療が必要です。"
+    },
+    {
+      "id": 20004,
+      "relations": [ 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 ],
+      "text": "中程度～重度のうつ状態です。専門家の治療が必要です。"
+    },
+    {
+      "id": 20005,
+      "relations": [ 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ],
+      "text": "重度のうつ状態です。専門家の治療が必要です。"
+    },
+    {
+      "id": 20006,
+      "relations": [ 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63 ],
+      "text": "!!!"
+    }
+  ]
+}
