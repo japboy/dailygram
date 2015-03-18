@@ -29,7 +29,13 @@
   ].join(''));
 
   var resultTmpl = _.template([
-    '<h1><%= text %></h1>',
+    '<section id="result" class="result">',
+      '<h1 class="result__subject">',
+        '<i class="fa fa-user-md fa-5x"></i>',
+        '<span><%= subject %></span>',
+      '</h1>',
+      '<p class="result__description"><%= description %></p>',
+    '</section>'
   ].join(''));
 
   var bindEachInputUpdate = function ($inputs) {

@@ -167,8 +167,64 @@ body {
 
 #result {}
 
-.result__subject {}
+.result__subject {
+  font-size: 1.2rem;
+}
 
-.result__body {}
+.result__subject i {
+  position: relative;
+  margin-right: 0.6rem;
+}
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+
+  body {
+    padding-bottom: 0.3rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top: 0.3rem;
+  }
+
+  #main {
+    width: inherit;
+  }
+
+  .question__subject {
+    display: table;
+    margin-top: 0;
+  }
+
+  .question__subject i {
+    display: table-cell;
+    padding-right: 0.6rem;
+  }
+
+  .question__subject span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .question__list__item label {
+    display: table;
+  }
+
+  .question__list__item input {
+    display: table-cell;
+  }
+
+  .question__list__item span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .result__subject i {
+    display: table-cell;
+    padding-right: 0.6rem;
+  }
+
+  .result__subject span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+}
